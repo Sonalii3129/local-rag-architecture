@@ -1,6 +1,9 @@
 streamlit
 chromadb
 ollama
-llama-index
+llama-index==0.10.68
+llama-index-core==0.10.68
+llama-index-llms-ollama==0.1.6
+duckduckgo-search
 python-dotenv
 pandas
