@@ -2,6 +2,10 @@
 
 A local Retrieval-Augmented Generation (RAG) system that allows users to query documents using natural language. The system uses Python, Ollama, ChromaDB, ReActAgent, and Streamlit to perform document ingestion, vector indexing, semantic retrieval, and contextual response generation.
 
+## Demo
+
+![Streamlit App Demo](screenshots/app-demo.png)
+
 ## Overview
 
 This project demonstrates how local LLMs can be combined with vector databases to create a private document-based question-answering system. Instead of relying only on a model’s general knowledge, the system retrieves relevant context from local documents and uses that context to generate more accurate responses.
