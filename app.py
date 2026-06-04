@@ -56,4 +56,4 @@ query = st.text_input("Or type your own question:", sample_prompt)
 if query:
     response = agent.query(query)
     st.subheader("Answer:")
-    st.write(response)
+    st.write(response.response)
